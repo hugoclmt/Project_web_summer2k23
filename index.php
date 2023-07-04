@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="lib/css/menu_css.css">
+    <link rel="stylesheet" href="lib/css/footer_css.css">
+    <link rel="stylesheet" href="lib/css/accueil_css.css">
 </head>
 <body>
     <header>
@@ -33,7 +35,10 @@
         ?>
     </main>
     <footer>
-
+    <?php
+        if (file_exists('nav/footer/footer.php')) {
+            include 'nav/footer/footer.php';}
+        ?>
     </footer>
 </body>
 </html>
