@@ -1,7 +1,7 @@
 <?php ?>
 <ul id="ul_nav">
-    <li class="li_nav"><a href="#">Accueil</a></li>
-    <li class="li_nav"><a href="#">Découvrir</a></li>
+    <li class="li_nav"><a href="index.php?page=accueil.php">Accueil</a></li>
+    <li class="li_nav"><a href="index.php?page=info.php">Découvrir</a></li>
     <li class="li_nav"><a href="#">Reservations</a></li>
     <li class="li_nav"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
